@@ -1,0 +1,25 @@
+//This file you will create your mixins inside of the project
+@mixin result {
+    border: 1px solid white;
+    padding: 20px;
+    width: 170px;
+    box-shadow: 0 0 10px pink, 0 0 10px $third-color;
+    background-color: $third-color;
+    border: none;
+    text-align: center;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+@mixin btn {
+    color: $text-color;
+    padding: 30px;
+    width: 200px;
+    background: $secondary-color;
+    cursor: pointer;
+    box-shadow: 0 0 10px #2196f3, 0 0 10px #2196f3;
+    border: none;
+    font-size: 1.5rem;
+    font-family: 'bangers';
+}
