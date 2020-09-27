@@ -1,0 +1,26 @@
+@media screen and (max-width: 1078px) {
+    .container__result {
+        display: grid;
+        justify-content: center;
+        grid-gap: 15px;
+    }
+    .container__button {
+        button {
+            &:hover {
+                transform: scale(1);
+            }
+        }
+    }
+}
+@media screen and (max-width: 700px) {
+    .container__button {
+        display: grid;
+        justify-content: center;
+        grid-gap: 15px;
+        button {
+            &:hover {
+                transform: scale(1);
+            }
+        }
+    }
+}

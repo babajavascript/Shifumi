@@ -6,7 +6,6 @@
     margin-top: 100px;
     button {
         @include btn;
-        transition: transform 200ms;
         &:hover {
             transform: scale(1.3);
         }
